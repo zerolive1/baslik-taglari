@@ -114,3 +114,104 @@
 <p>Perferendis minima, corporis omnis libero ex ipsa exercitationem ab totam.</p>
 <p>Non id doloremque quisquam deserunt. Ratione quod cum explicabo voluptatibus!</p>
 <p id="alt">Lorem, ipsum dolor sit <span style="color:red;"> Lorem, ipsum.</span> amet consectetur adipisicing elit. Laboriosam doloremque molestiae eius numquam commodi nihil aut esse ullam laudantium temporibus?</p>
+
+
+<!-- tablo oluşturma  -->
+
+<table border="1" width="70%" cellpadding="15px" cellspacing="10px">
+    <thead>
+        <tr>
+            <th>sayı</th>
+            <th>marka</th>
+            <th>isimi</th>
+            <th>fiyat</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">telefon</td> <!--diklemesine birleşir -->
+            <td>ıphone11</td>
+            <td>5000tl</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            
+            <td>xiomi</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>teleofon </td>
+            <td colspan="2">afsd f</td> <!--colspan yan yana birleşir -->
+            
+        </tr>
+    </tbody>
+</table>
+
+<br><br><br>
+
+             <!-- formlar  -->
+
+             <form >
+                <label for="isim">name</label>
+                <input type="text" id="isim" placeholder="isim gir"><br>
+
+                <label for="soyad">soyad</label>
+                <input type="text"  id="soyad" placeholder="soyad gir "> <br>
+
+                <label for="şifre">şifre</label>
+                <input type="password" id="şifre" placeholder="şifre gir "><br><br>
+
+                <label for="anlat">kendini anlat</label>
+                <textarea  id="anlat" ></textarea> <br><br>
+
+                <h1>en sevdiğin proglama dili</h1>
+                <input type="radio" id="html" name="prog">
+                <label for="html">html</label>
+
+                <input type="radio"  id="css" name="prog">
+                <label for="css">css</label>
+
+                <input type="radio" id="java" name="prog">
+                <label for="java">java</label> <br><br>
+
+                <h2>prog dillerini seç</h2>
+
+                <input type="checkbox"  id="html1">
+                <label for="html1">html</label>
+
+                <input type="checkbox"  id="css1">
+                <label for="css1">css</label>
+
+                <input type="checkbox" id="java1">
+                <label for="java1">java</label> <br><br>
+
+                <label for="şehir">şehiri seç</label>
+                <select id="şehir">
+                    <option value="06">ankara</option>
+                    <option value="36">istanbul</option>
+                    <option value="01">izmir</option>
+                </select> <br></br>
+
+                <label for="mail">e-mail gir</label>
+                <input type="email" id="mail"> <br>
+
+                <label for="date">doğum tarih</label>
+                <input type="date"  id="date">
+
+                <button type="submit">gönder</button>
+                <button type="reset">sil</button>
+
+             </form>
+
+             <br><br><br><br>
+              <!-- iframe komutu video ekleme yada sayfaya başka site ekranı yansıtma  -->
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/67f7RWb2z6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+             <iframe src="index.html" frameborder="0"></iframe>
+
+
+            
+
